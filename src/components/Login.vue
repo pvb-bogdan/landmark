@@ -5,7 +5,7 @@
     <b-container>
       <b-row class="pt-5">
         <b-col md="6" class="mx-auto">
-          <b-card>
+          <b-card class="shadow">
             <div class="ld-card-header text-center">
               <img src="@/assets/images/logo-ld.png" alt>
               <span class="ld-landmark">LANDMARK</span>

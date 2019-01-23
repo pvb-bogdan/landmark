@@ -110,15 +110,15 @@
         <b-row>
           <b-col sm="12">
             <hr>
-            <b-btn variant="secondary" size="sm" class="float-right">
+            <b-btn variant="secondary" size="sm" class="float-right" @click="showResults">
               <i class="fa fa-search mr-2"></i>SEARCH
             </b-btn>
           </b-col>
         </b-row>
       </div>
     </b-container>
-    <show-results />
-    <booking-search-results />
+    <show-results v-show="ShowResults"/>
+    <booking-search-results  v-show="ShowResults"/>
   </div>
 </template>
 
@@ -133,7 +133,16 @@ export default {
     'show-results': ShowResults
   },
   data () {
-    return {}
+    return {
+      ShowResults: false,
+      BookingSearchResults: false
+    }
+  },
+  methods: {
+    showResults () {
+      this.ShowResults = true
+      this.BookingSearchResults = true
+    }
   }
 }
 </script>
