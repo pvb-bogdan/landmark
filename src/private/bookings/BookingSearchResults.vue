@@ -59,10 +59,15 @@
                       <b-row class="mb-3">
                         <b-col md="3">
                           <b-card no-body>
-                            <img src="@/assets/images/hotel-placeholder.jpg" alt="" class="img-thumbnail">
+                            <img src="@/assets/images/hotel-placeholder2.jpg" alt="" class="img-thumbnail shadow">
                           </b-card>
                         </b-col>
-                        <b-col md="9">9</b-col>
+                        <b-col md="9">
+                          <p class="bg-dark text-white p-2 rounded shadow">Zona/Statiune: <b>LARNACA</b> Destinatie: <b>LARNACA</b> Tara: <b>CIPRU</b></p>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure tempore est corporis. Reiciendis facere dicta inventore! Eius similique cupiditate expedita consequatur ut pariatur odio suscipit eaque eum voluptas, aspernatur placeat.</p>
+                          <hr>
+                          <small class="float-right"><a href="#"><b><i class="fa fa-external-link mr-2"></i> <em>www.hotelastera.com</em></b></a></small>
+                        </b-col>
                       </b-row>
                       <b-row>
                         <b-col md="12">
