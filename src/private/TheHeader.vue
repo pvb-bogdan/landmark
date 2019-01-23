@@ -1,5 +1,5 @@
 <template>
-    <b-navbar toggleable="md" type="light" variant="light" class="ld-navbar">
+    <b-navbar toggleable="md" type="light" variant="light" class="ld-navbar fixed-top">
 
         <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
 
@@ -27,7 +27,7 @@
                 <span class="fa fa-user mr2"></span> Landmark User
                 </template>
                 <b-dropdown-item href="#">Mr. User User</b-dropdown-item>
-                <b-dropdown-item href="#">Log out</b-dropdown-item>
+                <b-dropdown-item href="#" @click="logout">Log out</b-dropdown-item>
             </b-nav-item-dropdown>
             </b-navbar-nav>
 
@@ -38,6 +38,11 @@
 <script>
 
 export default {
-  name: 'TheHeader'
+  name: 'TheHeader',
+  methods: {
+		logout (){
+			this.$router.push({ name: 'login' })
+		}
+	}
 }
 </script>

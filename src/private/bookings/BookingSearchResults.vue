@@ -56,7 +56,7 @@
                   </b-card-header>
                   <b-collapse id="accordion1" visible accordion="my-accordion" role="tabpanel">
                     <b-card-body>
-                      <b-row class="mb-3">
+                      <b-row class="mb-5">
                         <b-col md="3">
                           <b-card no-body>
                             <img src="@/assets/images/hotel-placeholder2.jpg" alt="" class="img-thumbnail shadow">
@@ -71,7 +71,59 @@
                       </b-row>
                       <b-row>
                         <b-col md="12">
-                          12
+                          <div class="table-responsive">
+                            <table class="table table-sm table-hover">
+                              <thead class="bg-dark text-white">
+                                <tr>
+                                  <td colspan="2">Room</td>
+                                  <td>Meal</td>
+                                  <td>Price</td>
+                                  <td>Sale</td>
+                                  <td>Offer</td>
+                                  <td>Choose</td>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>Classic Twin Side Sea View</td>
+                                  <td><a href="#" @click.prevent="hide2 = !hide2" ><i :class="{'fa fa-plus-square-o': !hide2, 'fa fa-minus-square-o': hide2}"></i></a></td>
+                                  <td>Bed &amp; Breakfast</td>
+                                  <td>1,854.00 &euro;</td>
+                                  <td>1,670.00 &euro;</td>
+                                  <td>EBD AVL</td>
+                                  <td><b-btn class="btn-sm float-right ld-btn-sm">Booking</b-btn></td>
+                                </tr>
+                                <tr v-show="hide2"><td colspan="7">hide</td></tr>
+                                <tr>
+                                  <td>Classic Twin Side Sea View</td>
+                                  <td><a ><i class="fa fa-plus-square-o"></i></a></td>
+                                  <td>Bed &amp; Breakfast</td>
+                                  <td>1,854.00 &euro;</td>
+                                  <td>1,670.00 &euro;</td>
+                                  <td>EBD AVL</td>
+                                  <td><b-btn class="btn-sm float-right ld-btn-sm">Booking</b-btn></td>
+                                </tr>
+                                <tr>
+                                  <td>Classic Twin Side Sea View</td>
+                                  <td><a href="#"><i class="fa fa-plus-square-o"></i></a></td>
+                                  <td>Bed &amp; Breakfast</td>
+                                  <td>1,854.00 &euro;</td>
+                                  <td>1,670.00 &euro;</td>
+                                  <td>EBD AVL</td>
+                                  <td><b-btn class="btn-sm float-right ld-btn-sm">Booking</b-btn></td>
+                                </tr>
+                                <tr>
+                                  <td>Classic Twin Side Sea View</td>
+                                  <td><a href="#"><i class="fa fa-plus-square-o"></i></a></td>
+                                  <td>Bed &amp; Breakfast</td>
+                                  <td>1,854.00 &euro;</td>
+                                  <td>1,670.00 &euro;</td>
+                                  <td>EBD AVL</td>
+                                  <td><b-btn class="btn-sm float-right ld-btn-sm">Booking</b-btn></td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
                         </b-col>
                       </b-row>
                     </b-card-body>
@@ -88,6 +140,11 @@
 import ModalBooking from './ModalBooking'
 
 export default {
+  data () {
+    return {
+      hide2: false
+    }
+  },
   methods: {
     openModal () {
       this.$modal.open({
