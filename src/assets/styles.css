@@ -1,4 +1,78 @@
+/*colors:
+
+blue = #043168
+blue transparency = rgba(4,45,97,.5)
+gray = #4d4e53
+graysh = #5F5F5F
+
+*/
+html,body{
+    height:100%;
+}
 body{
-    background-color: blueviolet!important;
-    color:#fff!important;
+    background: #f1f1f1 url(./images/bg.jpg) bottom center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color:rgb(26, 26, 26)!important;
+}
+
+/*NAVBAR*/
+.ld-navbar{
+    border-bottom: 3px solid rgba(4,45,97,.8);
+}
+a.navbar-brand img,
+.ld-card-header img{
+    height:25px;
+    margin-top:-5px;
+}
+.ld-landmark{
+    color:#4d4e53;
+    font-weight: 600;
+}
+.ld-holidays{
+    color:#043168;
+}
+
+/*GENERAL FILTERS*/
+.bg-filters{
+    border:1px solid #ccc;
+    background-color: #f9f9f9;
+}
+.col-form-label {
+    padding-top: calc(0.275rem + 1px);
+    padding-bottom: calc(0.275rem + 1px);
+    margin-bottom: 0;
+    font-size: .875rem !important;
+    line-height: 0.5 !important;
+    font-weight: 600;
+    color: #042d60 !important;
+}
+.ld-bg-primary{
+    background-color: #043168 !important;
+}
+.ld-btn-sm{
+    padding:0.15rem 0.4rem !important;
+}
+.result-title{
+    font-weight: 700;
+    color:#4d4e53;
+}
+.result-price{
+    font-weight: 700;
+    color:#de0015;
+}
+i.fa-tag {
+    color: rgb(219, 1, 1);
+}
+i.fa-clock-o {
+    color: #0087ff;
+}
+i.fa-check-circle-o {
+    color: #2cad16;
+}
+i.fa.fa-ban{
+    color:#ff8a34;
+}
+span.fa.fa-star{
+    color:#ff8a34;
 }
