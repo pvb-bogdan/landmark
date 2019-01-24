@@ -38,9 +38,9 @@
 export default {
   name: 'TheHeader',
   methods: {
-		logout () {
+    logout () {
       this.$router.push({ name: 'login' })
-		}
-	}
+    }
+  }
 }
 </script>

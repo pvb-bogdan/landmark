@@ -7,7 +7,7 @@
         <b-col md="6" class="mx-auto">
           <b-card class="shadow">
             <div class="ld-card-header text-center">
-              <img src="@/assets/images/logo-ld.png" alt>
+              <img src="@/assets/images/logo-ld.png" alt="">
               <span class="ld-landmark">LANDMARK</span>
               <span class="ld-holidays">HOLIDAYS</span>
             </div>

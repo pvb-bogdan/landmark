@@ -62,6 +62,25 @@ a.navbar-brand img,
     font-weight: 700;
     color:#de0015;
 }
+.ld-bg-tr-text{
+    background-color: #f1f1f1;
+}
+.caption{
+    caption-side: top;
+    font-weight: 600;
+    color: rgb(4, 49, 104);
+    padding-bottom: 0;
+    text-transform: uppercase;
+}
+/*MODAL*/
+.modal-hotel-name,
+h6.modal-title{
+    color:#043168;
+}
+h6.modal-title{
+    border-bottom:1px solid #5F5F5F;
+    margin-bottom:5px;
+}
 i.fa-tag {
     color: rgb(219, 1, 1);
 }

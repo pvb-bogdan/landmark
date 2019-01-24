@@ -29,22 +29,131 @@
           </div>
         </b-row>
         <b-row>
-            <b-col sm="12 p-3">
-              <div role="tablist">
-                <b-card no-body class="mb-1">
-                  <b-card-header header-tag="header" class="p-1" role="tab">
-                      <b-btn href="#" v-b-toggle.accordion1 variant="primary" size="sm" class="ld-btn-sm">
-                      <i class="fa fa-plus"></i>
+          <b-col sm="12 p-3">
+            <div role="tablist">
+              <b-card no-body class="mb-1">
+                <b-card-header header-tag="header" class="p-0" role="tab">
+                    <b-btn href="#" v-b-toggle.accordion1 variant="primary" size="sm" class="">
+                    <i class="fa fa-plus"></i>
+                    </b-btn>
+                    <span class="result-title">HOTEL ARMADA&nbsp;&nbsp;
+                      <sup>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                      </sup>
+                    </span>
+                    <div class="float-right">
+                      <span class="mr-2 result-price">price: 1,250 &euro;</span>
+                      <b-button-group>
+                        <b-button variant="warning" class="ld-btn-sm">
+                          <input type="checkbox">
+                          <b>PDF</b>
+                        </b-button>
+                        <b-button variant="primary" @click="openModal" class="ld-btn-sm"><i class="fa fa-info-circle"></i></b-button>
+                      </b-button-group>
+                    </div>
+                </b-card-header>
+                <b-collapse id="accordion1" visible accordion="my-accordion" role="tabpanel">
+                  <b-card-body>
+                    <b-row class="mb-5">
+                      <b-col md="3">
+                        <b-card no-body>
+                          <img src="@/assets/images/hotel-placeholder2.jpg" alt="" class="img-thumbnail shadow">
+                        </b-card>
+                      </b-col>
+                      <b-col md="9">
+                        <p class="bg-dark text-white p-2 rounded shadow">Zona/Statiune: <b>LARNACA</b> Destinatie: <b>LARNACA</b> Tara: <b>CIPRU</b></p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure tempore est corporis. Reiciendis facere dicta inventore! Eius similique cupiditate expedita consequatur ut pariatur odio suscipit eaque eum voluptas, aspernatur placeat.</p>
+                        <hr>
+                        <small class="float-right"><a href="#"><b><i class="fa fa-external-link mr-2"></i> <em>www.hotelastera.com</em></b></a></small>
+                      </b-col>
+                    </b-row>
+                    <b-row>
+                      <b-col md="12">
+                        <div class="table-responsive">
+                          <table class="table table-sm table-hover">
+                            <thead class="bg-dark text-white">
+                              <tr>
+                                <td colspan="2">Room</td>
+                                <td>Meal</td>
+                                <td>Price</td>
+                                <td>Sale</td>
+                                <td>Offer</td>
+                                <td>Choose</td>
+                              </tr>
+                            </thead>
+                            <tbody style="font-weight: 500;">
+                              <tr>
+                                <td>Classic Twin Side Sea View</td>
+                                <td><a href="#" @click.prevent="hide2 = !hide2" ><i :class="{'fa fa-plus-square-o': !hide2, 'fa fa-minus-square-o': hide2}"></i></a></td>
+                                <td>Bed &amp; Breakfast</td>
+                                <td class="text-secondary">1,274.00 &euro;</td>
+                                <td class="text-danger">1,172.00 &euro;</td>
+                                <td>
+                                  <span class="text-danger">AVL</span>
+                                  <span class="text-success">EBD</span>
+                                </td>
+                                <td><b-btn variant="primary" class="btn-sm float-right ld-btn-sm">Booking</b-btn></td>
+                              </tr>
+                              <tr v-show="hide2" class="ld-bg-tr-text">
+                                <td colspan="2"></td>
+                                <td>Bed &amp; Breakfast</td>
+                                <td class="text-secondary">1,188.00 &euro;</td>
+                                <td class="text-danger">1,086.00 &euro;</td>
+                                <td>
+                                  <span class="text-danger">AVL</span>
+                                  <span class="text-success">EBD</span>
+                                </td>
+                                <td><b-btn variant="primary" class="btn-sm float-right ld-btn-sm">Booking</b-btn></td>
+                              </tr>
+                              <tr>
+                                <td>Superior Side Sea View</td>
+                                <td><a ><i class="fa fa-plus-square-o"></i></a></td>
+                                <td>Bed &amp; Breakfast</td>
+                                <td class="text-secondary">1,999.00 &euro;</td>
+                                <td class="text-danger">1,802.00 &euro;</td>
+                                <td>
+                                  <span class="text-danger">AVL</span>
+                                  <span class="text-success">EBD</span>
+                                </td>
+                                <td><b-btn variant="primary" class="btn-sm float-right ld-btn-sm">Booking</b-btn></td>
+                              </tr>
+                              <tr>
+                                <td>Premium Superior Side Sea View</td>
+                                <td><a href="#"><i class="fa fa-plus-square-o"></i></a></td>
+                                <td>Bed &amp; Breakfast</td>
+                                <td class="text-secondary">2,059.00 &euro;</td>
+                                <td class="text-danger">1,850.00 &euro;</td>
+                                <td>
+                                  <span class="text-danger">AVL</span>
+                                  <span class="text-success">EBD</span>
+                                </td>
+                                <td><b-btn variant="primary" class="btn-sm float-right ld-btn-sm">Booking</b-btn></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </b-col>
+                    </b-row>
+                  </b-card-body>
+                </b-collapse>
+              </b-card>
+              <b-card no-body class="mb-1">
+                  <b-card-header header-tag="header" class="p-0" role="tab">
+                      <b-btn href="#" v-b-toggle.accordion2 variant="primary" size="sm" class="">
+                      <i :class="{'fa fa-plus' : !visible, 'fa fa-minus': visible}"></i>
                       </b-btn>
-                      <span class="result-title">HOTEL ARMADA&nbsp;&nbsp;
+                      <span class="result-title">PALM BEACH HOTEL&nbsp;&nbsp;
                         <sup>
+                          <span class="fa fa-star"></span>
                           <span class="fa fa-star"></span>
                           <span class="fa fa-star"></span>
                           <span class="fa fa-star"></span>
                         </sup>
                       </span>
                       <div class="float-right">
-                        <span class="mr-2 result-price">price: 1250 &euro;</span>
+                        <span class="mr-2 result-price">price: 1,772 &euro;</span>
                         <b-button-group>
                           <b-button variant="warning" class="ld-btn-sm">
                             <input type="checkbox">
@@ -54,19 +163,19 @@
                         </b-button-group>
                       </div>
                   </b-card-header>
-                  <b-collapse id="accordion1" visible accordion="my-accordion" role="tabpanel">
+                  <b-collapse id="accordion2" accordion="my-accordion" role="tabpanel">
                     <b-card-body>
                       <b-row class="mb-5">
                         <b-col md="3">
                           <b-card no-body>
-                            <img src="@/assets/images/hotel-placeholder2.jpg" alt="" class="img-thumbnail shadow">
+                            <img src="@/assets/images/hotel-placeholder.jpg" alt="" class="img-thumbnail shadow">
                           </b-card>
                         </b-col>
                         <b-col md="9">
                           <p class="bg-dark text-white p-2 rounded shadow">Zona/Statiune: <b>LARNACA</b> Destinatie: <b>LARNACA</b> Tara: <b>CIPRU</b></p>
                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure tempore est corporis. Reiciendis facere dicta inventore! Eius similique cupiditate expedita consequatur ut pariatur odio suscipit eaque eum voluptas, aspernatur placeat.</p>
                           <hr>
-                          <small class="float-right"><a href="#"><b><i class="fa fa-external-link mr-2"></i> <em>www.hotelastera.com</em></b></a></small>
+                          <small class="float-right"><a href="#"><b><i class="fa fa-external-link mr-2"></i> <em>www.palmbeach.com</em></b></a></small>
                         </b-col>
                       </b-row>
                       <b-row>
@@ -83,43 +192,53 @@
                                   <td>Choose</td>
                                 </tr>
                               </thead>
-                              <tbody>
+                              <tbody style="font-weight: 500;">
                                 <tr>
                                   <td>Classic Twin Side Sea View</td>
                                   <td><a href="#" @click.prevent="hide2 = !hide2" ><i :class="{'fa fa-plus-square-o': !hide2, 'fa fa-minus-square-o': hide2}"></i></a></td>
                                   <td>Bed &amp; Breakfast</td>
-                                  <td>1,854.00 &euro;</td>
-                                  <td>1,670.00 &euro;</td>
-                                  <td>EBD AVL</td>
-                                  <td><b-btn class="btn-sm float-right ld-btn-sm">Booking</b-btn></td>
+                                  <td class="text-secondary">1,274.00 &euro;</td>
+                                  <td class="text-danger">1,172.00 &euro;</td>
+                                  <td>
+                                    <span class="text-danger">AVL</span>
+                                    <span class="text-success">EBD</span>
+                                  </td>
+                                  <td><b-btn variant="primary" class="btn-sm float-right ld-btn-sm">Booking</b-btn></td>
                                 </tr>
-                                <tr v-show="hide2"><td colspan="7">hide</td></tr>
+                                <tr v-show="hide2" class="ld-bg-tr-text">
+                                  <td colspan="2"></td>
+                                  <td>Bed &amp; Breakfast</td>
+                                  <td class="text-secondary">1,188.00 &euro;</td>
+                                  <td class="text-danger">1,086.00 &euro;</td>
+                                  <td>
+                                    <span class="text-danger">AVL</span>
+                                    <span class="text-success">EBD</span>
+                                  </td>
+                                  <td><b-btn variant="primary" class="btn-sm float-right ld-btn-sm">Booking</b-btn></td>
+                                </tr>
                                 <tr>
-                                  <td>Classic Twin Side Sea View</td>
+                                  <td>Superior Side Sea View</td>
                                   <td><a ><i class="fa fa-plus-square-o"></i></a></td>
                                   <td>Bed &amp; Breakfast</td>
-                                  <td>1,854.00 &euro;</td>
-                                  <td>1,670.00 &euro;</td>
-                                  <td>EBD AVL</td>
-                                  <td><b-btn class="btn-sm float-right ld-btn-sm">Booking</b-btn></td>
+                                  <td class="text-secondary">1,999.00 &euro;</td>
+                                  <td class="text-danger">1,802.00 &euro;</td>
+                                  <td>
+                                    <span class="text-danger">AVL</span>
+                                    <span class="text-success">EBD</span>
+                                  </td>
+                                  <td><b-btn variant="primary" class="btn-sm float-right ld-btn-sm">Booking</b-btn></td>
                                 </tr>
                                 <tr>
-                                  <td>Classic Twin Side Sea View</td>
+                                  <td>Premium Superior Side Sea View</td>
                                   <td><a href="#"><i class="fa fa-plus-square-o"></i></a></td>
                                   <td>Bed &amp; Breakfast</td>
-                                  <td>1,854.00 &euro;</td>
-                                  <td>1,670.00 &euro;</td>
-                                  <td>EBD AVL</td>
-                                  <td><b-btn class="btn-sm float-right ld-btn-sm">Booking</b-btn></td>
-                                </tr>
-                                <tr>
-                                  <td>Classic Twin Side Sea View</td>
-                                  <td><a href="#"><i class="fa fa-plus-square-o"></i></a></td>
-                                  <td>Bed &amp; Breakfast</td>
-                                  <td>1,854.00 &euro;</td>
-                                  <td>1,670.00 &euro;</td>
-                                  <td>EBD AVL</td>
-                                  <td><b-btn class="btn-sm float-right ld-btn-sm">Booking</b-btn></td>
+                                  <td class="text-secondary">2,059.00 &euro;</td>
+                                  <td class="text-danger">1,850.00 &euro;</td>
+                                  <td>
+                                    <span class="text-danger">AVL</span>
+                                    <span class="text-success">EBD</span>
+                                  </td>
+                                  <td><b-btn variant="primary" class="btn-sm float-right ld-btn-sm">Booking</b-btn></td>
                                 </tr>
                               </tbody>
                             </table>
@@ -128,9 +247,19 @@
                       </b-row>
                     </b-card-body>
                   </b-collapse>
-                </b-card>
-              </div>
-            </b-col>
+              </b-card>
+            </div>
+          </b-col>
+          <b-col sm="12" class="px-4 pt-0 pb-4">
+            <hr class="mb-3 mt-0">
+            <b-btn-group size="sm" class="float-right">
+              <b-button variant="primary">1</b-button>
+              <b-button variant="primary">2</b-button>
+              <b-button variant="outline-primary"> ... </b-button>
+              <b-button variant="primary">8</b-button>
+              <b-button variant="primary">9</b-button>
+            </b-btn-group>
+          </b-col>
         </b-row>
       </div>
     </b-container>
