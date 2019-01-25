@@ -100,7 +100,7 @@
                               </tr>
                               <tr v-show="hide2" class="ld-bg-tr-text">
                                 <td colspan="2"></td>
-                                <td></td>
+                                <td>All Inclusive</td>
                                 <td class="text-secondary">1,188.00 &euro;</td>
                                 <td class="text-danger">1,086.00 &euro;</td>
                                 <td>
@@ -588,11 +588,11 @@
           <b-col sm="12" class="px-4 pt-0 pb-4">
             <hr class="mb-3 mt-0">
             <b-btn-group size="sm" class="float-right">
-              <b-button variant="primary">1</b-button>
-              <b-button variant="primary">2</b-button>
-              <b-button variant="outline-primary"> ... </b-button>
-              <b-button variant="primary">8</b-button>
-              <b-button variant="primary">9</b-button>
+              <b-button variant="outline-primary">«</b-button>
+              <b-button variant="outline-primary">‹</b-button>
+              <b-button variant="primary"> 1 </b-button>
+              <b-button variant="outline-primary">›</b-button>
+              <b-button variant="outline-primary">»</b-button>
             </b-btn-group>
           </b-col>
         </b-row>

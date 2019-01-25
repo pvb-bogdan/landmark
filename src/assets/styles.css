@@ -19,13 +19,18 @@ body{
 
 /*NAVBAR*/
 .ld-navbar{
-    border-bottom: 3px solid rgba(4,45,97,.8);
-    padding:0rem 1rem;
+    border-bottom: 3px solid #043168;
+    padding:0rem 1rem!important;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-weight: 500;
+    color: #043168;
 }
 .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
     color: rgba(255,255,255,1)!important;
-    background-color: rgba(4,45,97,.8);
+    background-color: #043168;
 }
+
 a.navbar-brand img,
 .ld-card-header img{
     height:25px;
@@ -108,6 +113,10 @@ span.fa.fa-star{
 .btn-primary {
     color: #fff;
     background-color: #042d60!important;
+    border-color: #042d60!important;
+}
+.btn-outline-primary {
+    color: #042d60;
     border-color: #042d60!important;
 }
 .btn-warning {

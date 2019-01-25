@@ -161,7 +161,7 @@
             <tbody style="font-weight: 500;">
               <tr>
                 <td>Classic Twin Side Sea View</td>
-                <td><a href="#" @click.prevent="hide2 = !hide2" ><i :class="{'fa fa-plus-square-o': !hide2, 'fa fa-minus-square-o': hide2}"></i></a></td>
+                <td><a href="#" ><i class=""></i></a></td>
                 <td>Bed &amp; Breakfast</td>
                 <td class="text-secondary">1,274.00 &euro;</td>
                 <td class="text-danger">1,172.00 &euro;</td>
@@ -170,19 +170,9 @@
                   <span class="text-success">EBD</span>
                 </td>
               </tr>
-              <tr v-show="hide2" class="ld-bg-tr-text">
-                <td colspan="2"></td>
-                <td>Bed &amp; Breakfast</td>
-                <td class="text-secondary">1,188.00 &euro;</td>
-                <td class="text-danger">1,086.00 &euro;</td>
-                <td>
-                  <span class="text-danger">AVL</span>
-                  <span class="text-success">EBD</span>
-                </td>
-              </tr>
               <tr>
                 <td>Superior Side Sea View</td>
-                <td><a ><i class="fa fa-plus-square-o"></i></a></td>
+                <td><a ><i class=""></i></a></td>
                 <td>Bed &amp; Breakfast</td>
                 <td class="text-secondary">1,999.00 &euro;</td>
                 <td class="text-danger">1,802.00 &euro;</td>
@@ -193,7 +183,7 @@
               </tr>
               <tr>
                 <td>Premium Superior Side Sea View</td>
-                <td><a href="#"><i class="fa fa-plus-square-o"></i></a></td>
+                <td><a href="#"><i class=""></i></a></td>
                 <td>Bed &amp; Breakfast</td>
                 <td class="text-secondary">2,059.00 &euro;</td>
                 <td class="text-danger">1,850.00 &euro;</td>

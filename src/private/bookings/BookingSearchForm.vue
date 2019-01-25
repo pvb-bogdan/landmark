@@ -3,7 +3,7 @@
     <b-container class="pt-5">
       <div class="bg-filters shadow p-3 rounded">
         <b-row>
-          <b-col><h4>TOURS</h4><hr></b-col>
+          <b-col><h4>BOOKINGS</h4><hr></b-col>
         </b-row>
         <b-row>
           <b-col md="3">
@@ -98,7 +98,7 @@
           <b-col md="3">
             <label for="input-group">Room 1</label>
             <b-input-group>
-              <b-form-input class="form-control form-control-sm"></b-form-input>
+              <b-form-input class="form-control form-control-sm" placeholder="2 Adults + 0 children"></b-form-input>
               <b-input-group-append>
                 <b-btn variant="primary" size="sm">
                   <i class="fa fa-plus"></i>
