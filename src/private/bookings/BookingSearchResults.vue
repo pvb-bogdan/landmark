@@ -66,7 +66,18 @@
                       </b-col>
                       <b-col md="9">
                         <p class="bg-dark text-white p-2 rounded shadow">Zona/Statiune: <b>LARNACA</b> Destinatie: <b>LARNACA</b> Tara: <b>CIPRU</b></p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure tempore est corporis. Reiciendis facere dicta inventore! Eius similique cupiditate expedita consequatur ut pariatur odio suscipit eaque eum voluptas, aspernatur placeat.</p>
+                        <hr>
+                          <ul class="list-inline text-center"  style="font-size:.8rem;">
+                            <li class="list-inline-item">
+                              <span><span class="text-primary"> <i class="fa fa-thumbs-up mr-2"></i></span>Foarte bine - <b class="text-success">8.5</b> Booking.com</span><br>
+                            </li>
+                            <li class="list-inline-item "> | </li>
+                            <li class="list-inline-item">
+                              <span><span class="text-success"><i class="fa fa-tripadvisor mr-2"></i></span>Certificat de excelenta pe Trip Advisor</span>
+                            </li>
+                          </ul>
+                          <hr>
+                        <p style="font-size:.9rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure tempore est corporis. Reiciendis facere dicta inventore! Eius similique cupiditate expedita consequatur ut pariatur odio suscipit eaque eum voluptas, aspernatur placeat.</p>
                         <hr>
                         <small class="float-right"><a href="#"><b><i class="fa fa-external-link mr-2"></i> <em>www.hotelastera.com</em></b></a></small>
                       </b-col>
