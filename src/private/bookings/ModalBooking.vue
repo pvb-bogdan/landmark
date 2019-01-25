@@ -11,9 +11,15 @@
         </div>
         <div class="col-sm-6">
           <div class="float-right">
-            <span>print</span>
-            <span>pdf</span>
-            <span @click="submit"><i class="fa fa-times"></i></span>
+            <button class="btn btn-outline-secondary btn-sm ld-btn-sm" v-b-tooltip.hover title="Print">
+              <span class="fa fa-print text-danger"></span>
+            </button>
+            <button class="btn btn-outline-secondary btn-sm ld-btn-sm" v-b-tooltip.hover title="PDF">
+              <span class="fa fa-file-pdf-o text-info"></span>
+            </button>
+            <button class="btn btn-outline-secondary btn-sm ld-btn-sm" @click="submit" v-b-tooltip.hover title="Close">
+              <i class="fa fa-times"></i>
+            </button>
           </div>
         </div>
       </b-row>

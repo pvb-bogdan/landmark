@@ -20,6 +20,11 @@ body{
 /*NAVBAR*/
 .ld-navbar{
     border-bottom: 3px solid rgba(4,45,97,.8);
+    padding:0rem 1rem;
+}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+    color: rgba(255,255,255,1)!important;
+    background-color: rgba(4,45,97,.8);
 }
 a.navbar-brand img,
 .ld-card-header img{
