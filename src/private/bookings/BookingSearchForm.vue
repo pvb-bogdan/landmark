@@ -110,7 +110,7 @@
         <b-row>
           <b-col sm="12">
             <hr>
-            <b-btn variant="secondary" size="sm" class="float-right" @click="showResults">
+            <b-btn variant="primary" size="sm" class="float-right" @click="showResults">
               <i class="fa fa-search mr-2"></i>SEARCH
             </b-btn>
           </b-col>

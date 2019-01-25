@@ -62,6 +62,10 @@ a.navbar-brand img,
     font-weight: 700;
     color:#de0015;
 }
+.result-price-black{
+    font-weight: 700;
+    color:#4d4e53;
+}
 .ld-bg-tr-text{
     background-color: #f1f1f1;
 }
@@ -95,4 +99,19 @@ i.fa.fa-ban{
 }
 span.fa.fa-star{
     color:#ff8a34;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #042d60!important;
+    border-color: #042d60!important;
+}
+.btn-warning {
+    color: #ffffff!important;
+    background-color: #ff8a34!important;
+    border-color: #ff8a34!important;
+}
+.btn-warning:hover {
+    color: #ffffff!important;
+    background-color: #f57114!important;
+    border-color: #f57114!important;
 }

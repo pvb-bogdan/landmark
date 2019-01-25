@@ -24,8 +24,8 @@
           <template slot="button-content">
           <span class="fa fa-user mr2"></span> Landmark User
           </template>
-          <b-dropdown-item href="#">Mr. User User</b-dropdown-item>
-          <b-dropdown-item href="#" @click="logout">Log out</b-dropdown-item>
+          <b-dropdown-item href="#"><i class="fa fa-user mr2"></i>  User User</b-dropdown-item>
+          <b-dropdown-item href="#" @click="logout"><i class="fa fa-sign-out mr2"> </i>  Sign out</b-dropdown-item>
         </b-nav-item-dropdown>
       </b-navbar-nav>
 
