@@ -101,7 +101,7 @@
               <b-form-input class="form-control form-control-sm" placeholder="2 Adults + 0 children"></b-form-input>
               <b-input-group-append>
                 <b-btn variant="primary" size="sm" @click="seen = !seen">
-                  <i class="fa fa-plus"></i>
+                 <i :class="{'fa fa-plus': !seen, 'fa fa-minus': seen}"></i>
                 </b-btn>
               </b-input-group-append>
             </b-input-group>
@@ -129,8 +129,8 @@
                 <b-form-group label="Sort by">
                   <select name="resort" id="resort" class="form-control form-control-sm">
                     <option value="1">Best deal</option>
-                    <option value="2">option</option>
-                    <option value="3">option</option>
+                    <option value="2">Price down</option>
+                    <option value="3">Price up</option>
                   </select>
                 </b-form-group>
               </b-col>

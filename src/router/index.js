@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import BookingSearchForm from '@/private/bookings/BookingSearchForm'
+import BookingDetails from '@/private/bookings/BookingDetails'
 import Login from '@/components/Login'
 import Layout from '@/private/Layout'
 
@@ -31,6 +32,11 @@ export default new Router({
               path: 'bookings',
               name: 'bookings',
               component: BookingSearchForm
+            },
+            {
+              path: 'bookingDetails',
+              name: 'bookingDetails',
+              component: BookingDetails
             }
           ]
         }

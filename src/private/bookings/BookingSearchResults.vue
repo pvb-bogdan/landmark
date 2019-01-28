@@ -142,7 +142,7 @@
                                   <span v-b-tooltip.hover title="available!"><i class="fa fa-check-circle-o"></i></span>
                                   <span v-b-tooltip.hover title="early booking!"><i class="fa fa-clock-o"></i></span>
                                 </td>
-                                <td><b-btn variant="primary" class="btn-sm float-right ld-btn-sm">Booking</b-btn></td>
+                                <td><b-btn variant="primary" class="btn-sm float-right ld-btn-sm" @click="bookingDetails">Booking</b-btn></td>
                               </tr>
                             </tbody>
                           </table>
@@ -625,6 +625,9 @@ export default {
       this.$modal.open({
         component: ModalBooking
       })
+    },
+    bookingDetails () {
+      this.$router.push({ name: 'bookingDetails' })
     }
   }
 }
