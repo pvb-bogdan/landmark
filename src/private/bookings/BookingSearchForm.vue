@@ -96,12 +96,26 @@
         </b-row>
         <b-row>
           <b-col md="3">
-            <label for="input-group">Room 1</label>
+            <label for="input-group" class=" ld-label">Room 1</label>
             <b-input-group>
               <b-form-input class="form-control form-control-sm" placeholder="2 Adults + 0 children"></b-form-input>
               <b-input-group-append>
+                <b-btn variant="primary" size="sm" @click="seen = !seen">
+                  <i class="fa fa-plus"></i>
+                </b-btn>
+              </b-input-group-append>
+            </b-input-group>
+          </b-col>
+          <b-col md="3" v-if="seen">
+            <label for="input-group" class=" ld-label">Room 2</label>
+            <b-input-group>
+              <b-form-input class="form-control form-control-sm" placeholder="2 Adults + 1 children"></b-form-input>
+              <b-input-group-append>
                 <b-btn variant="primary" size="sm">
                   <i class="fa fa-plus"></i>
+                </b-btn>
+                <b-btn variant="danger" size="sm">
+                  <i class="fa fa-minus"></i>
                 </b-btn>
               </b-input-group-append>
             </b-input-group>
@@ -157,7 +171,8 @@ export default {
   data () {
     return {
       ShowResults: false,
-      BookingSearchResults: false
+      BookingSearchResults: false,
+      seen: false
     }
   },
   methods: {

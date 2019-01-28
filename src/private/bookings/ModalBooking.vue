@@ -197,14 +197,14 @@
         </div>
       </b-col>
       <b-col md="12">
-        <h6 class="modal-title">Included &amp; Optional elements</h6>
+        <h6 class="modal-title">INCLUDED &amp; OPTIONAL ELEMENTS</h6>
         <ul class="list-group">
           <li class="list-group-item"> <i class="fa fa-check mr-2 text-success"></i>Morbi leo risus</li>
           <li class="list-group-item"> <i class="fa fa-times mr-2 text-danger"></i>Porta ac consectetur ac</li>
         </ul>
       </b-col>
       <b-col md="12">
-        <h6 class="modal-title">Notes:</h6>
+        <h6 class="modal-title">NOTES:</h6>
         <ul class="list-group">
           <li class="list-group-item list-group-item-secondary"><b>NOTE: </b> leo risus orta ac consectetur ac</li>
         </ul>

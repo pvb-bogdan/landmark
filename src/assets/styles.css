@@ -86,6 +86,12 @@ a.navbar-brand img,
     padding-bottom: 0;
     text-transform: uppercase;
 }
+.ld-label{
+    font-size: .875rem !important;
+    line-height: 0.5 !important;
+    font-weight: 600;
+    color: #042d60 !important;
+}
 /*MODAL*/
 .modal-hotel-name,
 h6.modal-title{
