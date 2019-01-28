@@ -48,7 +48,7 @@
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing.<br>Incidunt quas dignissimos neque vel voluptatum deleniti deserunt reiciendis.<br> Provident autem sed dolorum ipsam molestiae.</p>
             </b-col>
           </b-row>
-          <b-row>
+          <b-row class="mb-4">
             <b-col md="12">
               <div class="table-responsive">
                 <table class="table table-hover table-sm">
@@ -91,14 +91,135 @@
               </div>
             </b-col>
           </b-row>
+          <b-row>
+            <b-col sm="12">
+              <div class="table-responsive">
+                <table class="table table-sm text-center">
+                  <caption class="caption">Passenger details</caption>
+                  <thead class="bg-dark text-white">
+                    <tr>
+                      <td>Room</td>
+                      <td></td>
+                      <td>First Name</td>
+                      <td>Last Name</td>
+                      <td> Age</td>
+                      <td>Birth date</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Room 1</td>
+                      <td>
+                        <b-form-group>
+                          <select class="form-control form-control-sm">
+                            <option value="1">Mr</option>
+                            <option value="2">Mrs.</option>
+                            <option value="3">Miss</option>
+                          </select>
+                        </b-form-group>
+                      </td>
+                      <td>
+                        <b-form-input
+                          type="text"
+                          placeholder=" First Name"
+                          size="sm"
+                        ></b-form-input>
+                      </td>
+                      <td>
+                        <b-form-input
+                          type="text"
+                          placeholder="Last Name"
+                          size="sm"
+                        ></b-form-input>
+                      </td>
+                      <td>ADT</td>
+                      <td>
+                        <b-input-group
+                        size="sm"
+                        slot="prepend"
+                        >
+                          <b-form-input
+                          type="date"
+                          ></b-form-input>
+                        </b-input-group>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </b-col>
+          </b-row>
+          <b-row>
+            <b-col md="12">
+              <h6 class="modal-title">INCLUDED &amp; OPTIONAL ELEMENTS</h6>
+              <ul class="list-group">
+                <li class="list-group-item"> <i class="fa fa-check mr-2 text-success"></i>Morbi leo risus</li>
+                <li class="list-group-item"> <i class="fa fa-times mr-2 text-danger"></i>Porta ac consectetur ac</li>
+              </ul>
+            </b-col>
+            <b-col md="12">
+              <h6 class="modal-title">NOTES:</h6>
+              <ul class="list-group">
+                <li class="list-group-item list-group-item-secondary"><b>NOTE: </b> leo risus orta ac consectetur ac</li>
+              </ul>
+            </b-col>
+          </b-row>
+          <b-row class="mt-4">
+            <b-col sm="6">
+              <div class="terms">
+                <b-form-checkbox>
+                  <span>I read and I agree whit <span class="text-danger">Terms and Conditions</span></span>
+                </b-form-checkbox>
+              </div>
+            </b-col>
+            <b-col sm="6">
+              <div class="terms bg-warning">
+                <b>PRICE: </b> <span class="text-danger price">1,800.00 &euro;</span>
+              </div>
+            </b-col>
+          </b-row>
+          <b-row>
+            <b-col sm="12">
+              <hr>
+            </b-col>
+            <b-col sm="6">
+              <b-button  variant="primary" size="sm" @click="showResults">
+                <i class="fa fa-caret-left mr-2"></i> BACK TO RESULTS
+              </b-button>
+            </b-col>
+            <b-col sm="6">
+              <b-button  variant="warning"  size="sm" class="float-right">
+                <i class="fa fa-check mr-2"></i> BOOK
+              </b-button>
+            </b-col>
+          </b-row>
         </b-container>
       </div>
     </b-container>
   </div>
 </template>
 
+<style>
+  .terms{
+    padding:13px;
+    text-align: center;
+    border:1px solid #ccc;
+    border-radius:4px;
+    font-size: .9rem;
+  }
+  .price {
+    font-size:1.1rem;
+    font-weight: 700;
+  }
+</style>
+
 <script>
 export default {
-  name: 'bookingDetails'
+  name: 'bookingDetails',
+  methods: {
+    showResults () {
+      this.$router.push({ name: 'bookings' })
+    }
+  }
 }
 </script>

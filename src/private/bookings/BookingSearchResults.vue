@@ -77,7 +77,8 @@
                             </li>
                           </ul>
                           <hr>
-                        <p style="font-size:.9rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure tempore est corporis. Reiciendis facere dicta inventore! Eius similique cupiditate expedita consequatur ut pariatur odio suscipit eaque eum voluptas, aspernatur placeat.</p>
+                        <p style="font-size:.9rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          Iure tempore est corporis. Reiciendis facere dicta inventore! Eius similique cupiditate expedita consequatur ut pariatur odio suscipit eaque eum voluptas, aspernatur placeat.</p>
                         <hr>
                         <small class="float-right"><a href="#"><b><i class="fa fa-external-link mr-2"></i> <em>www.hotelastera.com</em></b></a></small>
                       </b-col>
