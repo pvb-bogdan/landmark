@@ -28,12 +28,12 @@
       <b-col sm="12" class="mb-4">
         <div class="bg-dark text-white rounded shadow clearfix px-3 py-1">
           <ul class="list-inline mb-0" style="font-size:.8rem;">
-            <li class="list-inline-item"><b>Plecare:</b>  <i>Bucuresti</i>  </li>
-            <li class="list-inline-item"><b>Transport:</b><i>  Avion  </i></li>
-            <li class="list-inline-item"><b>Destinatie:</b><i>  Larnaca</i></li>
-            <li class="list-inline-item"><b>Data:</b><i>  25-07-2019</i></li>
-            <li class="list-inline-item"><b>Nr. nopti:</b><i>  7</i></li>
-            <li class="list-inline-item"><b>Camera 1:</b><i>  2- adulti</i></li>
+            <li class="list-inline-item"><b>Departure:</b>  <i>London</i>  </li>
+            <li class="list-inline-item"><b>Transport:</b><i>  Flight  </i></li>
+            <li class="list-inline-item"><b>Destination:</b><i>  Larnaca</i></li>
+            <li class="list-inline-item"><b>Date:</b><i>  25-07-2019</i></li>
+            <li class="list-inline-item"><b>No. nights:</b><i>  7</i></li>
+            <li class="list-inline-item"><b>Room 1:</b><i>  2 - adults</i></li>
           </ul>
           <!-- <span><b>Plecare:</b>  Bucuresti   <b>Transport:</b>  Avion  <b>Destinatie:</b>  Larnaca</span> -->
           <hr style="border-bottom:1px solid #ccc; margin:5px 0px;">
@@ -166,8 +166,8 @@
                 <td class="text-secondary">1,274.00 &euro;</td>
                 <td class="text-danger">1,172.00 &euro;</td>
                 <td>
-                  <span class="text-danger">AVL</span>
-                  <span class="text-success">EBD</span>
+                  <span v-b-tooltip.hover title="available!"><i class="fa fa-check-circle-o"></i></span>
+                  <span v-b-tooltip.hover title="early booking!"><i class="fa fa-clock-o"></i></span>
                 </td>
               </tr>
               <tr>
@@ -177,8 +177,8 @@
                 <td class="text-secondary">1,999.00 &euro;</td>
                 <td class="text-danger">1,802.00 &euro;</td>
                 <td>
-                  <span class="text-danger">AVL</span>
-                  <span class="text-success">EBD</span>
+                  <span v-b-tooltip.hover title="available!"><i class="fa fa-check-circle-o"></i></span>
+                  <span v-b-tooltip.hover title="early booking!"><i class="fa fa-clock-o"></i></span>
                 </td>
               </tr>
               <tr>
@@ -188,13 +188,26 @@
                 <td class="text-secondary">2,059.00 &euro;</td>
                 <td class="text-danger">1,850.00 &euro;</td>
                 <td>
-                  <span class="text-danger">AVL</span>
-                  <span class="text-success">EBD</span>
+                  <span v-b-tooltip.hover title="available!"><i class="fa fa-check-circle-o"></i></span>
+                  <span v-b-tooltip.hover title="early booking!"><i class="fa fa-clock-o"></i></span>
                 </td>
               </tr>
             </tbody>
           </table>
         </div>
+      </b-col>
+      <b-col md="12">
+        <h6 class="modal-title">Included &amp; Optional elements</h6>
+        <ul class="list-group">
+          <li class="list-group-item"> <i class="fa fa-check mr-2 text-success"></i>Morbi leo risus</li>
+          <li class="list-group-item"> <i class="fa fa-times mr-2 text-danger"></i>Porta ac consectetur ac</li>
+        </ul>
+      </b-col>
+      <b-col md="12">
+        <h6 class="modal-title">Notes:</h6>
+        <ul class="list-group">
+          <li class="list-group-item list-group-item-secondary"><b>NOTE: </b> leo risus orta ac consectetur ac</li>
+        </ul>
       </b-col>
     </b-row>
     <div slot="modal-footer">

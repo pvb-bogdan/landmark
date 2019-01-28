@@ -110,9 +110,31 @@
         <b-row>
           <b-col sm="12">
             <hr>
-            <b-btn variant="primary" size="sm" class="float-right" @click="showResults">
-              <i class="fa fa-search mr-2"></i>SEARCH
-            </b-btn>
+            <b-row>
+              <b-col sm="3">
+                <b-form-group label="Sort by">
+                  <select name="resort" id="resort" class="form-control form-control-sm">
+                    <option value="1">Best deal</option>
+                    <option value="2">option</option>
+                    <option value="3">option</option>
+                  </select>
+                </b-form-group>
+              </b-col>
+              <b-col sm="3">
+                <b-form-group label="Result/page">
+                  <select name="resort" id="resort" class="form-control form-control-sm">
+                    <option value="1">20 / page</option>
+                    <option value="2">50 / page</option>
+                    <option value="3">Show  all</option>
+                  </select>
+                </b-form-group>
+              </b-col>
+              <b-col sm="6 pt-3">
+                <b-btn variant="primary" size="sm" class="float-right" @click="showResults">
+                  <i class="fa fa-search mr-2"></i>SEARCH
+                </b-btn>
+              </b-col>
+            </b-row>
           </b-col>
         </b-row>
       </div>

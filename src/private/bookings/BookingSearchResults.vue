@@ -3,7 +3,7 @@
       <div class="bg-filters shadow pt-0 rounded">
         <b-row>
           <div class="col-md-12">
-            <div class="d-flex chr-d-flex justify-content-between px-3 ld-bg-primary text-white">
+            <div class="d-flex justify-content-between px-3 ld-bg-primary text-white">
               <div class="p-2">
               <i class="fa fa-info-circle mr-2"></i>Hotel info
               </div>
