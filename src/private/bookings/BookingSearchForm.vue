@@ -1,9 +1,9 @@
 <template>
   <div>
-    <b-container class="pt-5">
+    <b-container class="pt-1">
       <div class="bg-filters shadow p-3 rounded">
         <b-row>
-          <b-col><h4>Packages</h4><hr></b-col>
+          <b-col><h5 class="m0">Packages</h5><hr class="my-2"></b-col>
         </b-row>
         <b-row>
           <b-col md="3">

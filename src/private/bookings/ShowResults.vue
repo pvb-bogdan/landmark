@@ -1,8 +1,8 @@
 <template>
-  <b-container class="mt-5">
-    <div class="bg-filters shadow p-3 rounded">
+  <b-container class="mt-1">
+    <div class="bg-filters shadow px-3 py-1 rounded">
       <b-row>
-        <b-col md="7" class="pt-3">
+        <b-col md="7" class="pt-1">
           <strong>CORFU</strong>
           <span>
             <i>19-09-2019 /
@@ -14,7 +14,7 @@
         <b-col md="5">
           <b-row>
             <b-col sm="6">
-              <b-form-group label="Sort by" class="mb-0">
+              <b-form-group class="mb-0">
                 <select name="resort" id="resort" class="form-control form-control-sm">
                   <option value="1">Best deal</option>
                   <option value="2">Price down</option>
@@ -23,7 +23,7 @@
               </b-form-group>
             </b-col>
             <b-col sm="6">
-              <b-form-group label="Result/page" class="mb-0">
+              <b-form-group class="mb-0">
                 <select name="resort" id="resort" class="form-control form-control-sm">
                   <option value="1">20 / page</option>
                   <option value="2">50 / page</option>
