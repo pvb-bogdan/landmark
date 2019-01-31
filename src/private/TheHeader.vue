@@ -10,11 +10,10 @@
 
     <b-collapse is-nav id="nav_collapse">
       <b-navbar-nav class="ml-auto">
-        <b-nav-item href="#">TOURS</b-nav-item>
-        <b-nav-item href="#">HOTEL</b-nav-item>
-        <b-nav-item href="#">FLIGHT</b-nav-item>
-        <b-nav-item :to="{name: 'bookings'}">BOOKINGS</b-nav-item>
-        <b-nav-item href="#">CONTACT</b-nav-item>
+        <b-nav-item :to="{name: 'bookings'}">Packages</b-nav-item>
+        <b-nav-item href="#">Flight Only</b-nav-item>
+        <b-nav-item href="#">My Bookings</b-nav-item>
+        <b-nav-item href="#">Contact</b-nav-item>
       </b-navbar-nav>
 
       <!-- Right aligned nav items -->

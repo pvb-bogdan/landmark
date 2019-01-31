@@ -12,13 +12,13 @@
               <span class="ld-holidays">HOLIDAYS</span>
             </div>
             <hr>
-            <b-form-group>
+            <b-form-group label="Agency code">
               <b-form-input class="form-control" placeholder="agency code"></b-form-input>
             </b-form-group>
-            <b-form-group>
+            <b-form-group label="User name">
               <b-form-input class="form-control" placeholder="user name"></b-form-input>
             </b-form-group>
-            <b-form-group>
+            <b-form-group label="Password">
               <b-form-input class="form-control" placeholder="password"></b-form-input>
             </b-form-group>
             <hr>
