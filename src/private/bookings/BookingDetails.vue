@@ -13,22 +13,8 @@
             </b-col>
           </b-row>
           <b-row>
-            <b-col>
-              <hr>
-              <ul class="list-inline text-center"  style="font-size:.8rem;">
-                <li class="list-inline-item">
-                  <span><span class="text-primary"> <i class="fa fa-thumbs-up mr-2"></i></span>Foarte bine - 8.5 Booking.com</span><br>
-                </li>
-                <li class="list-inline-item   "> | </li>
-                <li class="list-inline-item">
-                  <span><span class="text-success"><i class="fa fa-tripadvisor mr-2"></i></span>Certificat de excelenta pe Trip Advisor</span>
-                </li>
-              </ul>
-              <hr>
-            </b-col>
-          </b-row>
-          <b-row>
             <b-col sm="12">
+              <hr>
               <p style="font-size:.9rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure tempore est corporis. Reiciendis facere dicta inventore! Eius similique cupiditate expedita consequatur ut pariatur odio suscipit eaque eum voluptas, aspernatur placeat.</p>
               <hr>
             </b-col>
