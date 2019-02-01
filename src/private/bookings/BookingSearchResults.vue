@@ -1,9 +1,9 @@
 <template>
-    <b-container class="mt-5">
+    <b-container class="mt-1">
       <div class="bg-filters shadow pt-0 rounded">
         <b-row>
           <div class="col-md-12">
-            <div class="d-flex justify-content-between px-3 ld-bg-primary text-white">
+            <div class="d-flex justify-content-between px-3 ld-bg-primary text-white rounded">
               <div class="p-2">
               <i class="fa fa-info-circle mr-2"></i>Hotel info
               </div>
@@ -30,7 +30,7 @@
         </b-row>
         <b-row>
           <b-col sm="12 p-3">
-            <div role="tablist">
+            <div role="tablist" style="padding: .8rem;">
               <b-card no-body class="mb-1">
                 <b-card-header header-tag="header" class="p-0" role="tab">
                     <b-btn href="#" v-b-toggle.accordion1 variant="primary" size="sm" class="">

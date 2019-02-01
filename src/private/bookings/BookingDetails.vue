@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-container class="mt-5 bg-filters shadow rounded">
+    <b-container class=" bg-filters shadow rounded">
       <div class="py-4">
         <b-container>
           <b-row>
@@ -53,7 +53,7 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td>Dus</td>
+                      <td>Outbound</td>
                       <td>KZ252</td>
                       <td>22-07-2019</td>
                       <td>Heatrow</td>
@@ -63,7 +63,7 @@
                       <td>02:30</td>
                     </tr>
                     <tr>
-                      <td>Intors</td>
+                      <td>Return</td>
                       <td>KZ253</td>
                       <td>29-07-2019</td>
                       <td>Larnaca Intl</td>
