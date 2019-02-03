@@ -48,7 +48,7 @@
           </b-card>
       </b-col>
       <b-col md="7 align-self-center">
-        <h2 class="modal-hotel-name text-center">HOTEL ARMADA
+        <h2 class="modal-hotel-name text-center">Hotel Armada
             <sup>
               <small>
                 <span class="fa fa-star"></span>
@@ -60,19 +60,19 @@
         <hr>
       </b-col>
       <b-col sm="12 mt-4">
-        <h6 class="modal-title"><b>DESCRIPTION</b></h6>
+        <h6 class="modal-title"><b>Description</b></h6>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, nam culpa aperiam dolorum sint laborum id distinctio accusantium doloribus et sed odio cupiditate earum libero repellat autem dolorem placeat. Deserunt!</p>
-        <h6 class="modal-title"><b>ZONE</b></h6>
+        <h6 class="modal-title"><b>Zone</b></h6>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, nam culpa aperiam dolorum sint laborum id distinctio accusantium doloribus et sed odio cupiditate earum libero repellat autem dolorem placeat. Deserunt!</p>
-        <h6 class="modal-title"><b>HOTEL AMENITIES</b></h6>
+        <h6 class="modal-title"><b>Hotel amenities</b></h6>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, nam culpa aperiam dolorum sint laborum id distinctio accusantium doloribus et sed odio cupiditate earum libero repellat autem dolorem placeat. Deserunt!</p>
-        <h6 class="modal-title"><b>ROOM AMENITIES</b></h6>
+        <h6 class="modal-title"><b>Room amenities</b></h6>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, nam culpa aperiam dolorum sint laborum id distinctio accusantium doloribus et sed odio cupiditate earum libero repellat autem dolorem placeat. Deserunt!</p>
-        <h6 class="modal-title"><b>SPORT &amp; ENTERTAINEMENT</b></h6>
+        <h6 class="modal-title"><b>Sport &amp; entertainement</b></h6>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, nam culpa aperiam dolorum sint laborum id distinctio accusantium doloribus et sed odio cupiditate earum libero repellat autem dolorem placeat. Deserunt!</p>
-        <h6 class="modal-title"><b>DRINKS &amp; FOOD</b></h6>
+        <h6 class="modal-title"><b>Drinks &amp; food</b></h6>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, nam culpa aperiam dolorum sint laborum id distinctio accusantium doloribus et sed odio cupiditate earum libero repellat autem dolorem placeat. Deserunt!</p>
-        <h6 class="modal-title"><b>SPA &amp; WELLNES</b></h6>
+        <h6 class="modal-title"><b>Spa &amp; Wellness</b></h6>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, nam culpa aperiam dolorum sint laborum id distinctio accusantium doloribus et sed odio cupiditate earum libero repellat autem dolorem placeat. Deserunt!</p>
       </b-col>
       <b-col sm="12" class="my-4">
@@ -83,11 +83,11 @@
         </div>
       </b-col>
       <b-col md="6">
-        <h6 class="modal-title">INCLUDED SERVICES</h6>
+        <h6 class="modal-title">Included services</h6>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing.<br>Incidunt quas dignissimos neque vel voluptatum deleniti deserunt reiciendis.<br> Provident autem sed dolorum ipsam molestiae.<br>Possimus, quidem at lerm tare</p>
       </b-col>
       <b-col md="6">
-          <h6 class="modal-title">PAY FOR</h6>
+          <h6 class="modal-title">Pay for</h6>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing.<br>Incidunt quas dignissimos neque vel voluptatum deleniti deserunt reiciendis.<br> Provident autem sed dolorum ipsam molestiae.</p>
       </b-col>
     </b-row>
@@ -187,16 +187,16 @@
         </div>
       </b-col>
       <b-col md="12">
-        <h6 class="modal-title">INCLUDED &amp; OPTIONAL ELEMENTS</h6>
+        <h6 class="modal-title">Included &amp; optional elements</h6>
         <ul class="list-group">
           <li class="list-group-item"> <i class="fa fa-check mr-2 text-success"></i>Morbi leo risus</li>
           <li class="list-group-item"> <i class="fa fa-times mr-2 text-danger"></i>Porta ac consectetur ac</li>
         </ul>
       </b-col>
       <b-col md="12">
-        <h6 class="modal-title">NOTES:</h6>
+        <h6 class="modal-title">Notes:</h6>
         <ul class="list-group">
-          <li class="list-group-item list-group-item-secondary"><b>NOTE: </b> leo risus orta ac consectetur ac</li>
+          <li class="list-group-item list-group-item-secondary"><b>Note: </b> leo risus orta ac consectetur ac</li>
         </ul>
       </b-col>
     </b-row>

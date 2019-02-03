@@ -36,7 +36,7 @@
                     <b-btn href="#" v-b-toggle.accordion1 variant="primary" size="sm" class="">
                     <i class="fa fa-plus"></i>
                     </b-btn>
-                    <span class="result-title">HOTEL ARMADA&nbsp;&nbsp;
+                    <span class="result-title">Hotel Armada&nbsp;&nbsp;
                       <sup>
                         <span class="fa fa-star"></span>
                         <span class="fa fa-star"></span>
@@ -66,8 +66,8 @@
                       </b-col>
                       <b-col md="9">
                         <div class="bg-dark text-white p-2 rounded shadow clearfix mb-3">
-                          Zone: <b>LARNACA</b> |  Destination: <b>LARNACA</b> |  Country: <b>CIPRU</b>
-                          <hr style="border-bottom:1px solid #ccc; margin:5px 0px;">
+                          Zone: <b>Larnaca</b> |  Destination: <b>Larnaca</b> |  Country: <b>Cyprus</b>
+                          <!-- <hr style="border-bottom:1px solid #ccc; margin:5px 0px;"> -->
                           <a href="" class="text-white"><small class="float-right" style="font-size:.8rem;"> <i class="fa fa-external-link mr-2"></i> <em>www.armadahotel.com</em></small></a>
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure tempore est corporis. Reiciendis facere dicta inventore! Eius similique cupiditate expedita consequatur ut pariatur odio suscipit eaque eum voluptas, aspernatur placeat.</p>
@@ -149,7 +149,7 @@
                     <b-btn href="#" v-b-toggle.accordion2 variant="primary" size="sm" class="">
                     <i class="fa fa-plus"></i>
                     </b-btn>
-                    <span class="result-title">PALM BEACH HOTEL&nbsp;&nbsp;
+                    <span class="result-title">Palm Beach Hotel&nbsp;&nbsp;
                       <sup>
                         <span class="fa fa-star"></span>
                         <span class="fa fa-star"></span>
@@ -180,8 +180,8 @@
                       </b-col>
                       <b-col md="9">
                         <div class="bg-dark text-white p-2 rounded shadow clearfix mb-3">
-                          Zone: <b>LARNACA</b> |  Destination: <b>LARNACA</b> |  Country: <b>CIPRU</b>
-                          <hr style="border-bottom:1px solid #ccc; margin:5px 0px;">
+                          Zone: <b>Larnaca</b> |  Destination: <b>Larnaca</b> |  Country: <b>Cyprus</b>
+                          <!-- <hr style="border-bottom:1px solid #ccc; margin:5px 0px;"> -->
                           <a href="" class="text-white"><small class="float-right" style="font-size:.8rem;"> <i class="fa fa-external-link mr-2"></i> <em>www.palmbeach-hotel.com</em></small></a>
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure tempore est corporis. Reiciendis facere dicta inventore! Eius similique cupiditate expedita consequatur ut pariatur odio suscipit eaque eum voluptas, aspernatur placeat.</p>
@@ -263,7 +263,7 @@
                     <b-btn href="#" v-b-toggle.accordion3 variant="primary" size="sm" class="">
                     <i class="fa fa-plus"></i>
                     </b-btn>
-                    <span class="result-title">LIVADHIOTIS CITY HOTEL&nbsp;&nbsp;
+                    <span class="result-title">Livadhiotis City Hotel&nbsp;&nbsp;
                       <sup>
                         <span class="fa fa-star"></span>
                         <span class="fa fa-star"></span>
@@ -293,8 +293,8 @@
                       </b-col>
                       <b-col md="9">
                         <div class="bg-dark text-white p-2 rounded shadow clearfix mb-3">
-                          Zone: <b>LARNACA</b> |  Destination: <b>LARNACA</b> |  Country: <b>CIPRU</b>
-                          <hr style="border-bottom:1px solid #ccc; margin:5px 0px;">
+                          Zone: <b>Larnaca</b> |  Destination: <b>Larnaca</b> |  Country: <b>Cipru</b>
+                          <!-- <hr style="border-bottom:1px solid #ccc; margin:5px 0px;"> -->
                           <a href="" class="text-white"><small class="float-right" style="font-size:.8rem;"> <i class="fa fa-external-link mr-2"></i> <em>www.livadhiotishotel.com</em></small></a>
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure tempore est corporis. Reiciendis facere dicta inventore! Eius similique cupiditate expedita consequatur ut pariatur odio suscipit eaque eum voluptas, aspernatur placeat.</p>
@@ -376,7 +376,7 @@
                     <b-btn href="#" v-b-toggle.accordion4 variant="primary" size="sm" class="">
                     <i class="fa fa-plus"></i>
                     </b-btn>
-                    <span class="result-title">SUN HALLL&nbsp;&nbsp;
+                    <span class="result-title">Sun Hall&nbsp;&nbsp;
                       <sup>
                         <span class="fa fa-star"></span>
                         <span class="fa fa-star"></span>
@@ -407,8 +407,8 @@
                       </b-col>
                       <b-col md="9">
                         <div class="bg-dark text-white p-2 rounded shadow clearfix mb-3">
-                          Zone: <b>LARNACA</b> |  Destination: <b>LARNACA</b> |  Country: <b>CIPRU</b>
-                          <hr style="border-bottom:1px solid #ccc; margin:5px 0px;">
+                          Zone: <b>Larnaca</b> |  Destination: <b>Larnaca</b> |  Country: <b>Cyprus</b>
+                          <!-- <hr style="border-bottom:1px solid #ccc; margin:5px 0px;"> -->
                           <a href="" class="text-white"><small class="float-right" style="font-size:.8rem;"> <i class="fa fa-external-link mr-2"></i> <em>www.sunhall.com</em></small></a>
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure tempore est corporis. Reiciendis facere dicta inventore! Eius similique cupiditate expedita consequatur ut pariatur odio suscipit eaque eum voluptas, aspernatur placeat.</p>
@@ -490,7 +490,7 @@
                     <b-btn href="#" v-b-toggle.accordion5 variant="primary" size="sm" class="">
                     <i class="fa fa-plus"></i>
                     </b-btn>
-                    <span class="result-title">GOLDEN BAY HOTEL&nbsp;&nbsp;
+                    <span class="result-title">Golden Bay Hotel&nbsp;&nbsp;
                       <sup>
                         <span class="fa fa-star"></span>
                         <span class="fa fa-star"></span>
@@ -520,8 +520,8 @@
                       </b-col>
                       <b-col md="9">
                         <div class="bg-dark text-white p-2 rounded shadow clearfix mb-3">
-                          Zone: <b>LARNACA</b> |  Destination: <b>LARNACA</b> |  Country: <b>CIPRU</b>
-                          <hr style="border-bottom:1px solid #ccc; margin:5px 0px;">
+                          Zone: <b>Larnaca</b> |  Destination: <b>Larnaca</b> |  Country: <b>Cyprus</b>
+                          <!-- <hr style="border-bottom:1px solid #ccc; margin:5px 0px;"> -->
                           <a href="" class="text-white"><small class="float-right" style="font-size:.8rem;"> <i class="fa fa-external-link mr-2"></i> <em>www.goldenbayhotel.com</em></small></a>
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure tempore est corporis. Reiciendis facere dicta inventore! Eius similique cupiditate expedita consequatur ut pariatur odio suscipit eaque eum voluptas, aspernatur placeat.</p>

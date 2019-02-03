@@ -26,11 +26,11 @@
               </div>
             </b-col>
             <b-col md="4 pt-3">
-              <h6 class="modal-title">INCLUDED SERVICES</h6>
+              <h6 class="modal-title">Included services</h6>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing.<br>Incidunt quas dignissimos neque vel voluptatum deleniti deserunt reiciendis.<br> Provident autem sed dolorum ipsam molestiae.<br>Possimus, quidem at lerm tare</p>
             </b-col>
             <b-col md="4 pt-3">
-              <h6 class="modal-title">PAY FOR</h6>
+              <h6 class="modal-title">Pay for</h6>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing.<br>Incidunt quas dignissimos neque vel voluptatum deleniti deserunt reiciendis.<br> Provident autem sed dolorum ipsam molestiae.</p>
             </b-col>
           </b-row>
@@ -137,16 +137,16 @@
           </b-row>
           <b-row>
             <b-col md="12">
-              <h6 class="modal-title">INCLUDED &amp; OPTIONAL ELEMENTS</h6>
+              <h6 class="modal-title">Included &amp; optional elements</h6>
               <ul class="list-group">
                 <li class="list-group-item"> <i class="fa fa-check mr-2 text-success"></i>Morbi leo risus</li>
                 <li class="list-group-item"> <i class="fa fa-times mr-2 text-danger"></i>Porta ac consectetur ac</li>
               </ul>
             </b-col>
             <b-col md="12">
-              <h6 class="modal-title">NOTES:</h6>
+              <h6 class="modal-title">Notes:</h6>
               <ul class="list-group">
-                <li class="list-group-item list-group-item-secondary"><b>NOTE: </b> leo risus orta ac consectetur ac</li>
+                <li class="list-group-item list-group-item-secondary"><b>Note: </b> leo risus orta ac consectetur ac</li>
               </ul>
             </b-col>
           </b-row>
@@ -170,12 +170,12 @@
             </b-col>
             <b-col sm="6">
               <b-button  variant="primary" size="sm" @click="showResults">
-                <i class="fa fa-caret-left mr-2"></i> BACK TO RESULTS
+                <i class="fa fa-caret-left mr-2"></i> Back to results
               </b-button>
             </b-col>
             <b-col sm="6">
               <b-button  variant="warning"  size="sm" class="float-right">
-                <i class="fa fa-check mr-2"></i> BOOK
+                <i class="fa fa-check mr-2"></i> Book
               </b-button>
             </b-col>
           </b-row>

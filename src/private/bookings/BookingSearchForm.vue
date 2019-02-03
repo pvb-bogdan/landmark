@@ -25,7 +25,7 @@
             </b-form-group>
           </b-col>
           <b-col md="3">
-            <b-form-group label="Zone*">
+            <b-form-group label="Destination*">
               <select name="zone" id="zone" class="form-control form-control-sm">
                 <option value="1">-- select --</option>
                 <option value="2">option</option>
@@ -117,7 +117,7 @@
           </b-col>
           <b-col sm="3" class="p-3">
             <b-btn variant="primary" size="sm" class="float-right" @click="showResults">
-              <i class="fa fa-search mr-2"></i>SEARCH
+              <i class="fa fa-search mr-2"></i>Search
             </b-btn>
           </b-col>
         </b-row>
