@@ -13,7 +13,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "axios-progress-bar": "^1.1.8",
-    "bootstrap-vue": "^2.0.0-rc.2",
+    "bootstrap-vue": "^2.0.0-rc.12",
     "epic-spinners": "^1.0.3",
     "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",
